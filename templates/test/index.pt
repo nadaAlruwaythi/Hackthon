@@ -1,0 +1,20 @@
+<div metal:use-macro="load: ../shared/_layout.pt">
+    <div metal:fill-slot="content" tal:omit-tag="True">
+        <div class="form-container">
+            <form action="" method="POST" class="account-form">
+                <h1>Login to PyPI</h1>
+                 <label> Uploade froms</label>
+                <input name="file" type="file"  class="form-control">
+
+                <button type="submit" class="btn btn-danger">Register</button>
+                <div style="clear: both;"></div>
+
+                <div class="error-msg" tal:condition="error">${ error }</div>
+            </form>
+        </div>
+    </div>
+
+    <div metal:fill-slot="additional_css" tal:omit-tag="True">
+        <link rel="stylesheet" href="/static/css/account.css">
+    </div>
+</div>

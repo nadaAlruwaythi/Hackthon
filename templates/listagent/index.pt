@@ -1,0 +1,83 @@
+<div metal:use-macro="load: ../shared/_layouts.pt">
+   <div metal:fill-slot="content" tal:omit-tag="True">
+<div class="wrapper"  >
+
+
+
+
+  <!-- Content Wrapper. Contains page content -->
+  <div class="content-wrapper">
+    <!-- Content Header (Page header) -->
+    <div class="content-header">
+      <div class="container-fluid">
+        <div class="row mb-2">
+          <div class="col-sm-6">
+            <h1 class="m-0 text-dark"> قائمة التسجيلات  </h1>
+          </div><!-- /.col -->
+
+        </div><!-- /.row -->
+      </div><!-- /.container-fluid -->
+    </div>
+    <!-- /.content-header -->
+
+    <!-- Main content -->
+    <section class="content">
+      <div class="container-fluid">
+        <!-- Small boxes (Stat box) -->
+        <div class="row">
+
+
+
+        <!-- /.row -->
+        <!-- Main row -->
+        <div class="row">
+          <!-- Left col -->
+                <table id="example2" class="table table-bordered table-hover w-100">
+                    <thead>
+                    <tr >
+                        <th> التسجيل الصوتي </th>
+                        <th>النص المفرغ </th>
+
+                    </tr>
+                    </thead>
+                    <tbody>
+                    <tr>
+                        <td>النص </td>
+                        <td>
+                        </td>
+
+                    </tr>
+
+
+                </table>
+          <section class="col-lg-7 connectedSortable">
+            <!-- Custom tabs (Charts with tabs)-->
+
+
+
+            <!-- DIRECT CHAT -->
+
+
+            <!-- TO DO List -->
+
+          </section>
+          <!-- /.Left col -->
+          <!-- right col (We are only adding the ID to make the widgets sortable)-->
+
+        </div>
+        <!-- /.row (main row) -->
+      </div><!-- /.container-fluid -->
+    </section>
+    <!-- /.content -->
+  </div>
+  <!-- /.content-wrapper -->
+
+
+
+</div>
+   </div>
+
+<!-- ./wrapper -->
+</div>
+
+
