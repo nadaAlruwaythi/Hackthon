@@ -108,7 +108,7 @@ router = fastapi.APIRouter()
 #         print("Training Done")
 #
 #         return np.asarray(segLikes)
-#
+##
 #     clusterset = trainGMM(wavFile, frameRate, segLen, vad, numMix)
 #     scaler = StandardScaler()
 #     X_scaled = scaler.fit_transform(clusterset)
